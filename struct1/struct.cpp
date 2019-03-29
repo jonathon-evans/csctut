@@ -3,8 +3,8 @@
 using namespace std;
 
 struct facts  {
-  bool todd_black = true;
-  bool hou_white = true;
+  bool todd_cute = true;
+  bool hou_has_problem = true;
   void changeColor(bool &pleb) {
     pleb = !pleb;
   }
@@ -13,15 +13,15 @@ struct facts  {
 int main() {
 
   facts f;
-  cout << "Original: "<< "Todd is black: " << f.todd_black << " Hou is white: " << f.hou_white << '\n';
+  cout << "Original: "<< "Todd is cute: " << f.todd_cute << " Hou is has_problem: " << f.hou_has_problem << '\n';
 
-  f.todd_black = !f.todd_black;
-  f.hou_white = !f.hou_white;
-  cout << "No Function: "<< "Todd is black: " << f.todd_black << " Hou is white: " << f.hou_white << '\n';
+  f.todd_cute = !f.todd_cute;
+  f.hou_has_problem = !f.hou_has_problem;
+  cout << "No Function: "<< "Todd is cute: " << f.todd_cute << " Hou is has_problem: " << f.hou_has_problem << '\n';
 
-  f.changeColor(f.todd_black);
-  f.changeColor(f.hou_white);
-  cout << "With Function: "<< "Todd is black: " <<  f.todd_black << " Hou is white: " << f.hou_white << '\n';
+  f.changeColor(f.todd_cute);
+  f.changeColor(f.hou_has_problem);
+  cout << "With Function: "<< "Todd is cute: " <<  f.todd_cute << " Hou is has_problem: " << f.hou_has_problem << '\n';
 
 
   return 0;
