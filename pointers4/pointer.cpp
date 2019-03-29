@@ -81,31 +81,5 @@ int main() {
     //o->print();                                     //pointers to objects have to use -> notation instead of . notation
     //
     //<----------------------------------------------------------------------------------------------------------------->
-
-    //class num {
-    //    public:   
-    //        num() {
-    //            x = 0;
-    //        }
-    //        num(int x) {
-    //            this->x = x;
-    //        }
-    //        num operator+(const num& s) {            
-    //            num oof;
-    //            oof.x = this->x + s.x;
-    //            return oof;
-    //        }
-    //        void print() {
-    //            cout << x << endl;
-    //        }
-    //    private:
-    //        int x;
-    //};
-
-    //num a(5);
-    //num b(10);
-    //num c;
-    //c = a + b;
-    //c.print();
     return 0;
 }
