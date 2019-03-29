@@ -58,24 +58,26 @@ class Ashley: private cs_student {
     }
     void printA() {
       print();
+      cout << canSee << endl;
     }
 };
 
 
-/*
+
 class AshelysPhone: private Ashley {
   public:
-    AshelysPhone() {
-      isWeeb = false;
-      wantsToDie = false;
-      goodAtProgramming = true;
-      canSee = "Owo";
-    }
-    void printAS() {
-      print();
-    }
+    //AshelysPhone() {
+    //  isWeeb = false;
+    //  wantsToDie = false;
+    //  goodAtProgramming = true;
+    //  canSee = "Owo";
+    //}
+    //void printAP() {
+    //  print();
+    //  printA();
+    //}
 };
-*/
+
 //class A  
 //{ 
 //public: 
