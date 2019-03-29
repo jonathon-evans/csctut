@@ -50,7 +50,6 @@ class Ashley: private cs_student {
   public:
     string canSee;
     Ashley() {
-      //constructor still works because it's a member function;
       isWeeb = false;
       wantsToDie = false;
       goodAtProgramming = true;
